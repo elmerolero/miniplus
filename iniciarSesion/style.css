@@ -1,0 +1,28 @@
+form{
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	height: 500px;
+	align-items: center;
+	justify-content: space-around;
+	margin: auto;
+	border-radius: 10px;
+	background: #F69141;
+	color: white;
+}
+
+.link:hover{
+	text-decoration: underline;
+}
+
+.link{
+	font-size: 13px;
+	color: white;
+	text-align: center;
+}
+
+.entrada{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}

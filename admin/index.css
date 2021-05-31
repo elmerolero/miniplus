@@ -1,0 +1,102 @@
+li{
+	margin-bottom: 5px;
+}
+
+.contenido{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	min-height: 85%;
+}
+
+.izquierda{
+	width: 20%;
+	padding: 20px;
+	background: #65A3EA;
+	color: white;
+	border-radius: 10px;
+}
+
+.izquierda a{
+	color: white;
+}
+
+.derecha{
+	display: flex;
+	flex-direction: column;
+	align-items: spacer-around;
+	border-radius: 10px;
+	border:  1px #555 solid;
+	padding-left: 20px;
+	width: 75%;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+.productos{
+	width: 100%;
+	text-align: center;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+.encabezado-producto{
+	background: #278CF1;
+	color: white;
+	padding: 10px;
+	border: 1px #278CF1 solid;
+}
+
+.renglon-producto:hover{
+	background: #92CAEF;
+}
+
+.cuadro-opciones{
+	display: flex;
+	flex-direction: row;
+	height: auto;
+	border:  1px #555 solid;
+	border-radius: 5px;
+}
+
+.agregar:hover{
+	color: white;
+	background: #006FEE;
+}
+
+.editar:hover{
+	color: white;
+	background: #44C567;
+}
+
+.eliminar:hover{
+	color: white;
+	background: #EE3A3A;
+}
+
+.boton{
+	text-align: center;
+	width: 150px;
+	margin: 5px;
+	padding: 15px;
+	border-radius: 5px;
+	border:  1px #555 solid;
+}
+
+.id-producto{
+	width: 30px;
+}
+
+.imagen-producto{
+	width: 100px;
+	height: 100px;
+}
+
+.imagen-alterna{
+	margin: auto;
+	width: 100px;
+	height:  100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
